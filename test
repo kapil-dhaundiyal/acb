@@ -1,1 +1,13 @@
-kapil
+jlink :  jlink --module-path out;"C:\Program Files\Java\jdk-9\jmods" --add-modules com.lti.packA --limit-modules com.lti.packA --launcher runmodule=com.lti.packA/com.lti.packA.M1 --output outputdir
+
+
+jlink --module-path <modulepath> --add-modules <modules> --limit-modules <modules> --output <path>
+
+
+
+java-8 - 1637936
+
+              1637936
+               1000000
+
+java-9 - 1345264
